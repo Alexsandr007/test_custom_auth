@@ -1,0 +1,161 @@
+[
+{
+    "model": "authentication.role",
+    "pk": 1,
+    "fields": {
+        "name": "admin",
+        "description": "Администратор системы"
+    }
+},
+{
+    "model": "authentication.role",
+    "pk": 2,
+    "fields": {
+        "name": "manager",
+        "description": "Менеджер"
+    }
+},
+{
+    "model": "authentication.role",
+    "pk": 3,
+    "fields": {
+        "name": "user",
+        "description": "Обычный пользователь"
+    }
+},
+{
+    "model": "authentication.businesselement",
+    "pk": 1,
+    "fields": {
+        "name": "Пользователи",
+        "description": "Управление пользователями",
+        "code": "users"
+    }
+},
+{
+    "model": "authentication.businesselement",
+    "pk": 2,
+    "fields": {
+        "name": "Товары",
+        "description": "Управление товарами",
+        "code": "products"
+    }
+},
+{
+    "model": "authentication.businesselement",
+    "pk": 3,
+    "fields": {
+        "name": "Заказы",
+        "description": "Управление заказами",
+        "code": "orders"
+    }
+},
+{
+    "model": "authentication.businesselement",
+    "pk": 4,
+    "fields": {
+        "name": "Магазины",
+        "description": "Управление магазинами",
+        "code": "stores"
+    }
+},
+{
+    "model": "authentication.businesselement",
+    "pk": 5,
+    "fields": {
+        "name": "Управление доступом",
+        "description": "Управление правами доступа",
+        "code": "access_management"
+    }
+},
+{
+    "model": "authentication.accessrule",
+    "pk": 1,
+    "fields": {
+        "role": 1,
+        "element": 1,
+        "read_permission": true,
+        "read_all_permission": true,
+        "create_permission": true,
+        "update_permission": true,
+        "update_all_permission": true,
+        "delete_permission": true,
+        "delete_all_permission": true
+    }
+},
+{
+    "model": "authentication.accessrule",
+    "pk": 2,
+    "fields": {
+        "role": 1,
+        "element": 2,
+        "read_permission": true,
+        "read_all_permission": true,
+        "create_permission": true,
+        "update_permission": true,
+        "update_all_permission": true,
+        "delete_permission": true,
+        "delete_all_permission": true
+    }
+},
+{
+    "model": "authentication.accessrule",
+    "pk": 3,
+    "fields": {
+        "role": 1,
+        "element": 3,
+        "read_permission": true,
+        "read_all_permission": true,
+        "create_permission": true,
+        "update_permission": true,
+        "update_all_permission": true,
+        "delete_permission": true,
+        "delete_all_permission": true
+    }
+},
+{
+    "model": "authentication.accessrule",
+    "pk": 4,
+    "fields": {
+        "role": 1,
+        "element": 4,
+        "read_permission": true,
+        "read_all_permission": true,
+        "create_permission": true,
+        "update_permission": true,
+        "update_all_permission": true,
+        "delete_permission": true,
+        "delete_all_permission": true
+    }
+},
+{
+    "model": "authentication.accessrule",
+    "pk": 5,
+    "fields": {
+        "role": 1,
+        "element": 5,
+        "read_permission": true,
+        "read_all_permission": true,
+        "create_permission": true,
+        "update_permission": true,
+        "update_all_permission": true,
+        "delete_permission": true,
+        "delete_all_permission": true
+    }
+},
+{
+    "model": "authentication.accessrule",
+    "pk": 6,
+    "fields": {
+        "role": 3,
+        "element": 2,
+        "read_permission": true,
+        "read_all_permission": false,
+        "create_permission": true,
+        "update_permission": true,
+        "update_all_permission": false,
+        "delete_permission": true,
+        "delete_all_permission": false
+    }
+}
+]
